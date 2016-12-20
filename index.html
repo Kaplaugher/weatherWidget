@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather widget using canvas</title>
+
+<!-- Include bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Include our custom css -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<!-- Include jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Include our config file with API key (gitignored) -->
+	<script type="text/javascript" src="js/config.js"></script>
+<!-- Include custom JS -->
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+<body>
+
+	<form id="weather-form">
+		<label>Please enter location to search</label>
+		<input type="text" id="location" placeholder="Location">
+	</form>
+
+	<div id="currTemp">
+		<!-- Empty -->
+	</div>
+
+	<canvas id="weather-canvas">
+		<!-- Put the temperature in here!! -->
+	</canvas>
+
+</body>
+</html>
